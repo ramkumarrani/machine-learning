@@ -71,5 +71,6 @@ def myreg(fileLoc):
     reg.fit(X, y)
     print("\tCoefficients using Ridge: ", reg.intercept_, " ", reg.coef_[1])
 
+# assuming my input file (myfile.txt) is available at c:\temp
 if __name__ == '__main__':
     myreg("c:/temp/myfile.txt")
